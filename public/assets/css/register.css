@@ -7,10 +7,9 @@
 }
 
 body {
-    background-color: #eee;
     height: 100vh;
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(to top, #fff 10%, rgba(93, 42, 141, 0.4) 90%) no-repeat
+    background: #eee linear-gradient(to top, #fff 10%, rgba(93, 42, 141, 0.4) 90%) no-repeat;
 }
 
 .wrapper {
@@ -23,9 +22,9 @@ body {
 
 .h2 {
     font-family: 'Kaushan Script', cursive;
-    font-size: 3.5rem;
+    font-size: 50px;
     font-weight: bold;
-    color: #400485;
+    color: #4a1388;
     font-style: italic
 }
 
@@ -39,13 +38,15 @@ body {
     display: flex;
     align-items: center;
     cursor: pointer;
-    border: 1px solid #400485;
-    color: #400485
+    border: 1px solid #7b4ca0;
+    color: #7b4ca0;
+
 }
 
 .input-field:hover {
-    color: #7b4ca0;
-    border: 1px solid #7b4ca0
+
+    color: #400485;
+    border: 2px solid #400485
 }
 
 input {
