@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+	<div class="wrapper bg-white ">
+		<div class="h2 text-center">Inscription</div>
+		<div class="h4 text-muted text-center p-2">Saisissez vos données d'accès</div>
+		{{ form_start(registerForm)}}
+
+		{{ form_end(registerForm) }}
+		<div class="text-center pt-3 text-muted">Vous n'êtes pas membre ? <a href="#">Connexion</a></div>
+	</div>
+{% endblock %}
